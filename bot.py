@@ -3,7 +3,7 @@ from telebot import types
 import pymysql
 import time
 
-bot = telebot.TeleBot("8565209024:AAH5KXOX1c9DZGFSD-BUi6FQTbA4Uwqtjos")
+bot = telebot.TeleBot("")
 
 user_state = {}
 ege_data = {
@@ -382,3 +382,4 @@ while True:
     except Exception as e:
         print("[ERROR]", e)
         time.sleep(5)
+
